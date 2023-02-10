@@ -10,7 +10,7 @@ const List = ({ items }: Props) => (
   <ul>
     {items.map((item) => (
       <li key={item.id}>
-        <ListItem data={item} />
+        <ListItem data={item} /> ///
       </li>
     ))}
   </ul>
